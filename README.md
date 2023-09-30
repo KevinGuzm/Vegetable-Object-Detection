@@ -1,3 +1,76 @@
+# Vegetable Classification in Images
+
+This project aims to develop a predictive model to determine the location and type of vegetable present in images. We will use convolutional neural networks (CNNs) and transfer learning techniques to process a dataset containing 118 images of three vegetable classes: Mushrooms, Eggplant, and Cucumber. This project is part of a Kaggle competition.
+
+## Introduction
+
+Image processing and object classification in images are challenging problems in the field of computer vision. In this project, we tackle the classification of three types of vegetables in images: Mushrooms, Eggplant, and Cucumber. We employ convolutional neural networks (CNNs) and transfer learning to create an accurate classification model.
+
+## Dataset
+
+The dataset consists of 118 labeled images of three vegetable classes:
+
+- Mushrooms
+- Eggplant
+- Cucumber
+
+Each image has annotations indicating the vegetable class and its location within the image.
+
+## Methodology
+
+Our methodology consists of the following steps:
+
+1. **Data Exploration**: We begin by exploring the dataset to understand its structure and visualize some of the images.
+
+2. **Data Preprocessing**: We perform necessary preprocessing, including image normalization and creating suitable labels for classification.
+
+3. **Model Training**: We use convolutional neural networks (CNNs) and transfer learning techniques to train classification models.
+
+4. **Model Evaluation**: We measure the performance of our models using metrics such as accuracy, recall, and F1-score.
+
+5. **Generating Predictions**: We employ the trained model to make predictions on a test dataset.
+
+## Requirements
+
+To run this project, you need to have the following Python libraries installed:
+
+- PyTorch
+- NumPy
+- Matplotlib
+- Pandas
+- Scikit-learn
+- Albumentations
+
+## Usage Instructions
+
+1. Clone this repository to your local machine.
+2. Ensure you have all the required libraries installed using `pip install -r requirements.txt`.
+3. Follow the workflow described in the provided Jupyter Notebooks in the `notebooks` folder.
+4. Adjust hyperparameters and model architectures as needed to achieve the best results.
+5. Once you are satisfied with the model's performance, use it to make predictions on the test dataset.
+6. Upload your predictions to the Kaggle competition and check your score.
+
+## Results
+- Iteration #:  250
+- train_loss = 0.0
+- train_reg_loss = 0.0
+- train_cls_loss = 0.0
+- train_iou = 1.0
+- train_accuracy = 1.0
+- val_loss = 0.0
+- val_reg_loss = 0.0
+- val_cls_loss = 0.0
+- val_iou = 1.0
+- val_accuracy = 1.0
+
+## Contributions
+
+This project was developed by Kevin Maycol Guzman Huamani.
+
+
+---------------------------------------------------------------------------------------
+
+
 # Clasificación de Vegetales en Imágenes
 
 Este proyecto tiene como objetivo desarrollar un modelo predictivo para determinar la localización y el tipo de vegetal presente en imágenes. Utilizaremos redes neuronales convolucionales (CNNs) y técnicas de transfer learning para procesar un conjunto de datos que contiene 118 imágenes de tres clases de vegetales: Mushrooms, Eggplant y Cucumber. Este proyecto es parte de una competencia en Kaggle.
