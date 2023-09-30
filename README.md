@@ -64,4 +64,7 @@ Para ejecutar este proyecto, necesitas tener las siguientes bibliotecas de Pytho
 - val_iou = 1.0
 - val_accuracy = 1.0
 
+## Contribuciones
+
+Este proyecto fue desarrollado por Kevin Maycol Guzman Huamani.
 
