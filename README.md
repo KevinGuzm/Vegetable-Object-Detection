@@ -41,17 +41,27 @@ Para ejecutar este proyecto, necesitas tener las siguientes bibliotecas de Pytho
 - Scikit-learn
 - Albumentations
 
-## Resultados 
+## Instrucciones de Uso
+
+1. Clona este repositorio en tu máquina local.
+2. Asegúrate de tener todas las bibliotecas requeridas instaladas utilizando `pip install -r requirements.txt`.
+3. Sigue el flujo de trabajo descrito en los Jupyter Notebooks proporcionados en la carpeta `notebooks`.
+4. Ajusta hiperparámetros y arquitecturas de modelo según sea necesario para obtener los mejores resultados.
+5. Una vez que estés satisfecho con el rendimiento del modelo, úsalo para hacer predicciones en el conjunto de datos de prueba.
+6. Sube tus predicciones a la competencia de Kaggle y verifica tu puntaje.
+
+
+6. **Resultados**: 
 Iteration #:  250
-	train_loss = 0.0
-	train_reg_loss = 0.0
-	train_cls_loss = 0.0
-	train_iou = 1.0
-	train_accuracy = 1.0
-	val_loss = 0.0
-	val_reg_loss = 0.0
-	val_cls_loss = 0.0
-	val_iou = 1.0
-	val_accuracy = 1.0
+train_loss = 0.0
+train_reg_loss = 0.0
+train_cls_loss = 0.0
+train_iou = 1.0
+train_accuracy = 1.0
+val_loss = 0.0
+val_reg_loss = 0.0
+val_cls_loss = 0.0
+val_iou = 1.0
+val_accuracy = 1.0
 
 
