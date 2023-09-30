@@ -41,4 +41,17 @@ Para ejecutar este proyecto, necesitas tener las siguientes bibliotecas de Pytho
 - Scikit-learn
 - Albumentations
 
+## Resultados 
+Iteration #:  250
+	train_loss = 0.0
+	train_reg_loss = 0.0
+	train_cls_loss = 0.0
+	train_iou = 1.0
+	train_accuracy = 1.0
+	val_loss = 0.0
+	val_reg_loss = 0.0
+	val_cls_loss = 0.0
+	val_iou = 1.0
+	val_accuracy = 1.0
+
 
