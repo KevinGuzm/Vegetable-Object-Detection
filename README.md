@@ -51,7 +51,7 @@ Para ejecutar este proyecto, necesitas tener las siguientes bibliotecas de Pytho
 6. Sube tus predicciones a la competencia de Kaggle y verifica tu puntaje.
 
 
-6. **Resultados**: 
+## Resultados** 
 Iteration #:  250
 train_loss = 0.0
 train_reg_loss = 0.0
